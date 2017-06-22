@@ -1,7 +1,7 @@
 puts 'How does a Old-school Roman Numeral looks like?'
 puts 'Enter a number between 0 to 3000 and check it out!'
 
-def old_roman_numeral integer  
+def old_roman_numeral integer 
 	romannumerals = ''
 	if integer/1000
 	romannumerals = romannumerals + 'M'* (integer/1000)

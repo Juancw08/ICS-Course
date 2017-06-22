@@ -7,6 +7,7 @@ input = gets.chomp
 	numberofbyes = 0
 	end
 	if numberofbyes == 3 
+	puts 'BYE SONNY!'
 	break 
 	end
 	if input == input.upcase
@@ -17,4 +18,3 @@ input = gets.chomp
 	end
 	
 end
-#keeps on running 
